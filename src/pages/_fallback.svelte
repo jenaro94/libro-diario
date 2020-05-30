@@ -15,4 +15,4 @@
 </style>
 
 <h1>Oops! No page was found!</h1>
-<a href={$url()}>&larr; Go to home</a>
+<a href={$url('/')}>&larr; Go to home</a>
