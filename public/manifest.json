@@ -1,0 +1,35 @@
+{
+  "name": "Libro Diario",
+  "short_name": "Libro Diario",
+  "icons": [
+    {
+      "src": "images/icons/mstile-144x144.png",
+      "sizes": "144x144",
+      "type": "image/png"
+    },
+    {
+      "src": "images/icons/mstile-70x70.png",
+      "sizes": "70x70",
+      "type": "image/png"
+    },
+    {
+      "src": "images/icons/mstile-150x150.png",
+      "sizes": "150x150",
+      "type": "image/png"
+    },
+    {
+      "src": "images/icons/mstile-310x150.png",
+      "sizes": "310x150",
+      "type": "image/png"
+    },
+    {
+      "src": "images/icons/mstile-310x310.png",
+      "sizes": "310x310",
+      "type": "image/png"
+    }
+  ],
+  "start_url": "/index.html",
+  "display": "standalone",
+  "background_color": "#ebebeb",
+  "theme_color": "#749388"
+}
