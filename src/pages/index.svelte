@@ -159,6 +159,12 @@
     border-right: 0;
     border-top: 4px solid var(--theme-color);
   }
+
+  .date-label {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+  }
 </style>
 
 
@@ -172,7 +178,10 @@
         <thead>
           <tr>
             <th width="50%">
-              <label for="selected-date">{getDisplayDate()}</label>
+              <label for="selected-date" class="date-label">
+                {getDisplayDate()}
+                <img src="images/triangle-up.svg" alt="Choose Day." width="20" height="20" />
+              </label>
               <input id="selected-date" type="date" max={TODAY} on:change={chooseDate} />
             </th>
             <th>
